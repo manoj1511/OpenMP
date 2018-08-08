@@ -23,7 +23,7 @@ int main()
 #pragma omp parallel private(its)
   {
 /*!!!! Print the thread numbers, use the omp_get_thread_num function */
-    its = ...
+//    its = ...
     printf("This is Thread %d\n", its); 
   }
 
